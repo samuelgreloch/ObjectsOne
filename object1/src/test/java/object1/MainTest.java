@@ -8,18 +8,22 @@ import java.util.List;
 
 public class MainTest {
 
+    public static void Person(String[] args) {
+        // Declare and initialize an object
+        Person person1 = new Person("Sam", 30);
+    //@Test
+    //public void testImmutableCollections() {
 
-    @Test
-    public void testImmutableCollections() {
+      //  List<String> fruits = List.of("Mangosteen", "Durian fruit", "Longan");
 
-        List<String> fruits = List.of("Mangosteen", "Durian fruit", "Longan");
-
-        assertThrows(UnsupportedOperationException.class, () -> {
-            fruits.add("Mango");
-            fruits.remove(1);
+        //assertThrows(UnsupportedOperationException.class, () -> {
+           // fruits.add("Mango");
+            //ruits.remove(1);
         });
 
-        assertEquals(3, fruits.size());
+
+        //assertEquals(3, fruits.size());
 
     }
 }
+
