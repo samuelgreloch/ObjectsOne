@@ -1,10 +1,12 @@
+
+package object1;
 public class Car {
     private String make;
     private String model;
     private int year;
     private int mileage;
 
-    public Car(String make, String model, int year, int mileage) {
+    public Car(String make, String model, int year) {
         this.make = make;
         this.model = model;
         this.year = year;

@@ -10,7 +10,7 @@ public class MainTest {
 
     public static void Person(String[] args) {
         // Declare and initialize an object
-        Person person1 = new Person("Sam", 30);
+        Person person1 = new Person("Sam",30,160);
     //@Test
     //public void testImmutableCollections() {
 
@@ -19,11 +19,11 @@ public class MainTest {
         //assertThrows(UnsupportedOperationException.class, () -> {
            // fruits.add("Mango");
             //ruits.remove(1);
-        });
+        };
 
 
         //assertEquals(3, fruits.size());
 
     }
-}
+
 

@@ -1,3 +1,4 @@
+package object1;
 public class Dog {
     private String name;
     private int age;
